@@ -1,0 +1,5 @@
+/.idea
+/.others
+/venv
+yh_get_all_sym.log
+tickers.py
