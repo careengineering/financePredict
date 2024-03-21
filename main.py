@@ -3,6 +3,7 @@ import yfinance as yf
 import datetime
 from prophet import Prophet
 
+
 def financePredict(type,day_before,day_after):
     date_before = datetime.timedelta(days=day_before)
     today = datetime.date.today()
